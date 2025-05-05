@@ -49,7 +49,7 @@ export default function Projects() {
               loading="lazy"
               src={p.imageUrl}
               alt={p.title}
-              className="rounded mb-4 w-full h-40 object-cover"
+              className="rounded mb-4 w-full h-40 object-contain"
             />
             <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
               {p.title}

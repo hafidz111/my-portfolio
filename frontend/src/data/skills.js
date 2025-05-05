@@ -1,10 +1,4 @@
-import {
-  FaReact,
-  FaJsSquare,
-  FaCss3Alt,
-  FaGithub,
-  FaNodeJs,
-} from "react-icons/fa";
+import { FaReact, FaJsSquare, FaCss3Alt, FaGithub, FaNodeJs, FaChartBar } from "react-icons/fa";
 import {
   SiFirebase,
   SiTailwindcss,
@@ -32,7 +26,7 @@ const skills = [
   },
   {
     name: "Data Analyst",
-    icon: <FaJsSquare size={30} />,
+    icon: <FaChartBar size={30} />,  // Diganti dengan ikon chart
     color: "#F7DF1E",
   },
   {

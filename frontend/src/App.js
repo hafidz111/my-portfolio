@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Education from "./components/Education";
 import Skill from "./components/Skill";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -34,6 +35,7 @@ export default function App() {
       <Navbar toggleDark={() => setDark((prev) => !prev)} />
       <Hero />
       <About />
+      <Education />
       <Skill />
       <Projects />
       <Contact />

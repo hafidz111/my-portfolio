@@ -17,8 +17,7 @@ export default function About() {
             About Me
           </h2>
           <p className="text-gray-600 dark:text-gray-300">
-            I'm a passionate designer and developer with 1 year of experience
-            creating beautiful and functional digital experiences.
+          I'm an aspiring designer and developer with a year of experience in freelancing, teaching, and continuously learning about UI/UX and Android development.
           </p>
           <div className="flex space-x-4 text-2xl text-gray-600 dark:text-gray-300">
             <a
@@ -45,14 +44,13 @@ export default function About() {
         >
           <img
             loading="lazy"
-            src="https://i.pinimg.com/736x/83/47/d8/8347d82f981225c121cdf2aa5b21a779.jpg"
+            src="https://i.imgur.com/n5bXf86.jpeg"
             alt="Profile"
-            className="rounded-lg shadow-lg"
+            className="w-72 h-72 object-cover object-top rounded-lg shadow-lg"
           />
         </div>
       </div>
 
-      {/* Certifications Section */}
       <div className="mt-16 max-w-5xl mx-auto px-4" data-aos="fade-up">
         <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-6 text-center">
           Certifications
