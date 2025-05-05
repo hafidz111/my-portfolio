@@ -19,7 +19,8 @@ export default function Education() {
                        absolute left-1/2 sm:left-1/2 transform -translate-x-1/2 
                        -top-8 z-20 
                        border-4 border-white dark:border-gray-900 
-                       shadow-md"></div>
+                       shadow-md"
+></div>
               <div
       className="w-5 h-5 bg-blue-600 rounded-full 
                  absolute left-1/2 sm:left-1/2 transform -translate-x-1/2 
