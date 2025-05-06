@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: "Dicoding Event",
     description:
-      "A mobile app built to list and explore technology events, created during Dicoding Academy course project.",
+      "A mobile app built to list and explore technology events.",
     imageUrl: "https://i.imgur.com/dren6Fg.png",
     link: "https://github.com/hafidz111/dicoding-event",
   },
@@ -19,7 +19,7 @@ const projects = [
     id: 3,
     title: "Busy Mate",
     description:
-      "A productivity app to organize daily tasks, manage schedule, and track habits, designed for busy professionals.",
+      "Busy Mate is a collaborative Android app designed to connect and empower small business owners (UMKM).",
     imageUrl: "https://i.imgur.com/CTAr89g.png",
     link: "https://github.com/hafidz111/busy-mate",
   },
@@ -27,7 +27,7 @@ const projects = [
     id: 4,
     title: "GitHub User",
     description:
-      "A web application to search GitHub users and view detailed profiles, built with React and GitHub API integration.",
+      "A Android application to search GitHub users and view detailed profiles, built with Kotlin, Jetpack Compose and GitHub API integration.",
     imageUrl: "https://i.imgur.com/i3L9KNJ.png",
     link: "https://github.com/hafidz111/github-user-jetpack-compose",
   },
