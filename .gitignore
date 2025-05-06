@@ -1,0 +1,64 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend/node_modules/
+frontend/.next/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+frontend/package-lock.json
+frontend/yarn.lock
+
+# django
+backend/__pycache__/
+backend/db.sqlite3
+backend/*.pyc
+backend/.env
+backend/.env.*
+backend/venv/
+backend/media/
+backend/staticfiles/
+backend/migrations/**/__pycache__/
+backend/migrations/**/*.pyc
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === General ===
+.env
+.env.*
+*.log
+*.sqlite3
+.DS_Store
+*.pyc
+__pycache__/
+
+# === Test / Coverage ===
+coverage/
+*.coveragerc
+
+# === Editor / OS ===
+.vscode/
+.idea/
+*.swp
+
+# === System Files ===
+*.bak
+*.tmp
+Thumbs.db
+desktop.ini
