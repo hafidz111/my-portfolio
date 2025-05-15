@@ -4,9 +4,9 @@ import educations from "../data/educations";
 export default function Education() {
   return (
     <section id="education" className="py-16 px-4 bg-gray-100 dark:bg-gray-800">
-      <h2 className="text-3xl font-bold text-center mb-12">Educations</h2>
+      <h2 className="text-3xl font-bold text-center mb-12" data-aos="fade-up">Educations</h2>
       <div className="relative max-w-5xl mx-auto">
-        <div className="absolute top-6 left-0 w-full h-1 bg-gray-300 dark:bg-gray-600 z-0" />
+        <div className="absolute top-6 left-0 w-full h-1 bg-gray-300 dark:bg-gray-600 z-0" data-aos="fade-up" />
 
         <div className="flex flex-col sm:flex-row sm:justify-between gap-16 relative z-10 pt-12">
           {educations.map((item, index) => (
