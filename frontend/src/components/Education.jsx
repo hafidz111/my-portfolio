@@ -10,6 +10,7 @@ export default function Education() {
       >
         Educations
       </h2>
+
       <div className="relative max-w-5xl mx-auto">
         <div
           className="absolute top-6 left-0 w-full h-1 bg-gray-300 dark:bg-gray-600 z-0"
@@ -24,20 +25,14 @@ export default function Education() {
               className="relative sm:w-[48%] text-center sm:text-left"
               data-aos="fade-up"
               data-aos-delay={150 + index * 100}
-            ><div
-            className="w-5 h-5 bg-blue-600 rounded-full 
-                       absolute left-1/2 sm:left-1/2 transform -translate-x-1/2 
-                       -top-8 z-20 
-                       border-4 border-white dark:border-gray-900 
-                       shadow-md"
-></div>
+            >
               <div
-      className="w-5 h-5 bg-blue-600 rounded-full 
-                 absolute left-1/2 sm:left-1/2 transform -translate-x-1/2 
-                 -top-8 z-20 
-                 border-4 border-white dark:border-gray-900 
-                 shadow-md"
-    ></div>
+                className="w-5 h-5 bg-blue-600 rounded-full 
+                  absolute left-1/2 transform -translate-x-1/2 
+                  -top-8 z-20 
+                  border-4 border-white dark:border-gray-900 
+                  shadow-md"
+              ></div>
 
               <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg">
                 <h3 className="text-xl font-semibold">{item.title}</h3>
